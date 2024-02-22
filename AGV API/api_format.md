@@ -15,17 +15,17 @@ Sample format of the response packets:
 
 ## API header
 
-| Name             | Constant Value | Length (bytes) | Description                                  |
-|------------------|----------------|----------------|----------------------------------------------|
-| Head             | 0xCA00         | 2 (uint16)     | Constant value to verify the head of packets |
-| Version          | 0x0001         | 2 (uint16)     | The current version of API                   |
-| Reserved         | 0x0000         | 2 (uint16)     | Reserved                                     |
-| Request ID       | -              | 2 (uint16)     | The packets sent request ID                  |
-| API code ID      | -              | 2 (uint16)     | The code of the request or response API      |
-| JSON data length | -              | 4 (uint32)     | The length of JSON data                      |
-| Reserved         | 0x0000         | 2 (uint16)     | Reserved (length is 1 byte for response)     |
-| Return code      | -              | 1 (uint8)      | Return code (only in response)               |
-| JSON data        | -              | -              | JSON data required by the API                |
+| Name             | Constant Value | Length (bytes) | Description                                         |
+|------------------|----------------|----------------|-----------------------------------------------------|
+| Head             | 0xCA00         | 2 (uint16)     | Constant value to verify the head of packets        |
+| Version          | 0x0001         | 2 (uint16)     | The current version of API                          |
+| Reserved         | 0x0000         | 2 (uint16)     | Reserved                                            |
+| Request ID       | -              | 2 (uint16)     | The packets sent request ID                         |
+| API code ID      | -              | 2 (uint16)     | The code of the request or response API             |
+| JSON data length | -              | 4 (uint32)     | The length of JSON data                             |
+| Reserved         | 0x0000         | 2 (uint16)     | Reserved (length is 1 byte for response)            |
+| Return code      | -              | 1 (uint8)      | Return code (only in response, 0: normal, 1: error) |
+| JSON data        | -              | -              | JSON data required by the API                       |
 
 
 ## API category
