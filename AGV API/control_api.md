@@ -173,6 +173,7 @@ Description of nav_task:
 Task operations included:
 * JackLoad
 * JackUnload
+* Spin
 
 Sample below shows the JSON data for path navigation from 101 -> 102 -> 112, \
 and with operation of JackLoad, adjust_down_pgv at 90° when robot arrives destination 120:
