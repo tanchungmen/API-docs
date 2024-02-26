@@ -160,15 +160,15 @@ JSON data:      *table below*
 ```
 Description of nav_task:
 
-| Key             | Data type | Description                                                            | Required | Default value |
-|-----------------|-----------|------------------------------------------------------------------------|----------|---------------|
-| task_id         | str       | Unique task id for each nav_task                                       | Yes      | -             |
-| from_id         | int       | Predecessor layout node ID                                             | Yes      | -             |
-| to_id           | int       | Successor layout node ID                                               | Yes      | -             |
-| angle           | float     | The angle of robot upon reaching destination (°)                       | No       | -             |
-| operation       | str       | The subsequent operation of robot upon reaching destination            | No       | -             |
-| adjust_down_pgv | bool      | Secondary adjustment using down pgv                                    | No       | -             |
-| adjust_theta    | float     | Secondary adjustment angle (°). Only valid if adjust_down_pgv is true  | No       | 0             |
+| Key             | Data type | Description                                                           | Required | Default value |
+|-----------------|-----------|-----------------------------------------------------------------------|----------|---------------|
+| task_id         | str       | Unique task id for each nav_task                                      | Yes      | -             |
+| from_id         | int       | Predecessor barcode tag ID                                            | Yes      | -             |
+| to_id           | int       | Successor barcode tag ID                                              | Yes      | -             |
+| angle           | float     | The angle of robot upon reaching destination (°)                      | No       | -             |
+| operation       | str       | The subsequent operation of robot upon reaching destination           | No       | -             |
+| adjust_down_pgv | bool      | Secondary adjustment using down pgv                                   | No       | -             |
+| adjust_theta    | float     | Secondary adjustment angle (°). Only valid if adjust_down_pgv is true | No       | 0             |
 
 Task operations included:
 * JackLoad
