@@ -35,4 +35,4 @@ There are 3 types of API, and the API code ID and the JSON data description can 
 |-------------------------------|-------------|
 | [Config API](config.md)       | 8000        |
 | [Control API](control_api.md) | 8000        |
-| [Status API](status_api.md)   | 8000        |
+| [Status API](status_api.md)   | 8100        |
