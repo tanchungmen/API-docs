@@ -298,14 +298,14 @@ JSON data:      *N/A*
 ## Jack down task
 <H3> Request </H3>
 
-Code:           2010 
+Code:           2011 
 
 Description:    Send the jack down task request
 
 JSON data:      *N/A*
 
 <H3> Response </H3>
-Code:           12010
+Code:           12011
 
 Description:    Send the jack down task response
 
@@ -315,7 +315,7 @@ JSON data:      *N/A*
 ## Homing task
 <H3> Request </H3>
 
-Code:           2011 
+Code:           2012 
 
 Description:    Send the homing task request. \
 The robot will perform homing for its turntable and jacking mechanism.
@@ -323,7 +323,7 @@ The robot will perform homing for its turntable and jacking mechanism.
 JSON data:      *N/A*
 
 <H3> Response </H3>
-Code:           12011
+Code:           12012
 
 Description:    Send the homing task response
 
@@ -333,7 +333,7 @@ JSON data:      *N/A*
 ## Set DO
 <H3> Request </H3>
 
-Code:           2012 
+Code:           2013 
 
 Description:    Set DO request
 
@@ -345,7 +345,7 @@ JSON data:      *table below*
 
 
 <H3> Response </H3>
-Code:           12012
+Code:           12013
 
 Description:    Set DO response
 
